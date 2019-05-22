@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.config.from_object(Confiruration)
 
 
-@app.route("/test")
+@app.route("/")
 def test():
     return render_template("index.html")
 
