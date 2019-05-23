@@ -137,7 +137,7 @@ ol {
 }
 
 .spad {
-	padding-top: 115px;
+	padding-top: 60px;
 	padding-bottom: 30px;
 }
 
@@ -268,7 +268,8 @@ ol {
 	width: 100%;
 	top: 0;
 	left: 0;
-	padding-top: 60px;
+	padding-top: 20px;
+
 }
 
 .site-logo {
@@ -317,7 +318,7 @@ ol {
 .hero-text {
 	text-align: center;
 	padding-top: 200px;
-	margin-bottom: 105px;
+	margin-bottom: 40px;
 }
 
 .hero-text h2 {
@@ -822,6 +823,7 @@ ol {
 }
 
 .footer-menu {
+	font-family: 'Roboto', sans-serif;
 	list-style: none;
 	float: right;
 }
@@ -862,6 +864,8 @@ ol {
 	font-size: 14px;
 	font-weight: 600;
 	color: #474747;
+	
+	font-family: 'Roboto', sans-serif;
 }
 
 /*------------------
@@ -1847,7 +1851,9 @@ h5 .time{
 
 	background-color:#c4e1f1;
 	background-position: bottom;
+	background-repeat: no-repeat;
 	background-image: url("/static/img/page-bg/BACKSHEDULE.png")
+	
 
 }
 
@@ -1861,3 +1867,12 @@ h5 .time{
 	background-image: url("/static/img/page-bg/12.jpg")
 }
 */
+.btn-send {
+
+	background-color: #feb833;
+	color: white;
+}
+
+.row-items {
+	max-width:100%;
+}

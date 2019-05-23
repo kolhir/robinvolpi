@@ -6,6 +6,21 @@
 	<meta name="description" content="WebUni Education Template">
 	<meta name="keywords" content="webuni, education, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Yandex.Metrika counter -->
+		<script type="text/javascript" >
+		   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+		   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+		   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+		   ym(53766010, "init", {
+		        clickmap:true,
+		        trackLinks:true,
+		        accurateTrackBounce:true,
+		        webvisor:true
+		   });
+		</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/53766010" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 	<!-- Favicon -->
 	<!-- <link href="/static/img/favicon.ico" rel="shortcut icon"/> -->
  	<link rel="shortcut icon" href="{{ url_for('static', filename='/static/img/favicon.ico') }}">
@@ -43,22 +58,22 @@
 					<div class="site-logo">
 						<img src="static/img/logo.png" alt="">
 					</div>
-					<div class="nav-switch">
+					<!-- <div class="nav-switch">
 						<i class="fa fa-bars"></i>
-					</div>
+					</div> -->
 				</div>
-				<div class="col-lg-9 col-md-9">
+			<!-- 	<div class="col-lg-9 col-md-9"> -->
 					<!-- <a href="" class="site-btn header-btn">Login</a> -->
-					<nav class="main-menu d-flex justify-content-end">
-						<ul>
+					<!-- <nav class="main-menu d-flex justify-content-end"> -->
+						<!-- <ul> -->
 						<!-- 	<li><a href="index.html">Главная</a></li>
 							<li><a href="#">О нас</a></li>
 							<li><a href="courses.html">Курсы</a></li>
 							<li><a href="blog.html">Новости</a></li>
 							<li><a href="contact.html">Контакты</a></li> -->
-						</ul>
-					</nav>
-				</div>
+						<!-- </ul> -->
+					<!-- </nav> -->
+				<!-- </div> -->
 			</div>
 		</div>
 	</header>
@@ -67,10 +82,10 @@
 	
 	<!-- Hero section -->
 	<section class="hero-section set-bg" data-setbg="/static/img/DSC00119.jpg">
-		<div class="container">
+		<div class="container row-items ">
 			<div class="hero-text text-white">
 
-				<h2>Летняя школа Робин 2019</h2>
+				<h2 class="mt-5">Летняя школа Робин 2019</h2>
 				<br><br>
 				<h5>
 				Возможность не только отдохнуть и развлечься,<br> 
@@ -78,32 +93,38 @@
 				Вас ждут интерактивные мастер-классы,<br> 
 				командные и личные состязания в научно-исследовательском жанре, <br> 
 				знакомство с новинками современной инженерии, <br> 
-				работа с наставниками разлинчых направлений.
+				работа с наставниками различных направлений.
 				</h5>
 				<br><br><br><br><br>
 				</div>
 
 			<div class="row align-centre text-white">
-				<div class="col-lg-3   text-center">
+				<div class="col-lg-1"  ></div>
+				<div class="col-lg-2   text-center">
 					<h1 class="mt-3"> <i class="fa fa-calendar" aria-hidden="true"></i></h1>
 					<h4 class="mt-3">  24 июня - 5 июля</h4>
 				</div>
-				<div class="col-lg-3   text-center">
+				<div class="col-lg-2   text-center">
 						<h1 class="mt-3"> <i class="fa fa-clock-o" aria-hidden="true"></i></h1>
-						<h4 class="mt-3">5 дней с пн по пт</h4>
+						<h4 class="mt-3">с пн по пт</h4>
 						<h4 class="mt-1">с 9:00 до 15:00</h4>
 				</div>
-				<div class="col-lg-3   text-center">
+				<div class="col-lg-2   text-center">
 					<h1 class="mt-3"> <i class="fa fa-child " aria-hidden="true"></i></h1>
 					<h4 class="mt-3"> Для школьников</h4>
 					<h4 class="mt-1"> 2-11 классы</h4>
 				</div>
-				<div class="col-lg-3   text-center">
+				<div class="col-lg-2   text-center">
 					<h1 class="mt-3"> <i class="fa fa-map-marker" aria-hidden="true"></i></h1>
 					<h4 class="mt-3">Волжский</h4>
 					<h4 class="mt-1">Ленина 94</h4>
 				</div>
-	
+				<div class="col-lg-2 text-center">
+					<h1 class="mt-3"> <i class="fa fa-rub" aria-hidden="true"></i></h1>
+					<h4 class="mt-3">Цена:</h4>
+					<h4 class="mt-1">8100 рублей</h4>
+				</div>
+				<div class="col-lg-1"  ></div>
 			</div> 
 		</div>
 	</section>
@@ -118,17 +139,17 @@
 
 
 	<!-- course section -->
-	<section class="course-section spad">
+<!-- 	<section class="course-section spad">
 		<div class="container">
 			<div class="section-title">
 				<h2>Полезная и незабываемая неделя летних каникул для вашего ребенка</h2>
 			</div>
 		</div>
-		<!-- https://icon-icons.com/ru/pack/Stream-Line-Ux-Free-Pack-Duetone/1466&page=1 -->
+
 		<div class="course-warp for-pb">
 			<div class="row course-items-area">
 		
-					<div class="mix col-lg-4 col-md-4 col-sm-6 ">
+				<div class="mix col-lg-4 col-md-4 col-sm-6 ">
 						<div  class="text-center" >
 							<img class = "icon-in-1"src="/static/img/icons/monitorwindow_100640.svg">
 						</div>
@@ -157,7 +178,7 @@
 					</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- course section end -->
 	<section class="course-section spad">
 		<div class="container">
@@ -258,7 +279,7 @@
 				<h2 class ="mb-4">Расписание дня</h2>
 			</div>
 		</div>
-		<div class = "row mt-5">
+		<div class = "row mt-5 mr-0">
 			<div class = "col-md-1 "></div>
 			<div class = "col-md-4 col-xs-12">
 				<img class = "shedule-img" src="/static/img/shediule.png">
@@ -305,7 +326,7 @@
 
 		</div>
 	</section>
-<section class="course-section spad">
+<section class="course-section spad mb-5">
 	<div class="container">
 
 		<div class="section-title">
@@ -380,7 +401,7 @@
 		</div>
 	</div>
 </section>
-<section class="bronirovanie-section spad">
+<!-- <section class="bronirovanie-section spad">
 	<div class="container">
 
 		<div class="section-title	">
@@ -388,7 +409,7 @@
 		</div>
 		
 		<div class = "row">
-			<div class = "col-3">
+			<div class = "col-3 align-center">
 				<h5 class="for-form">Оставьте свои контакты и мы с вами свяжемся</h5>
 			</div>
 			<div class = "col-3"></div>	
@@ -402,11 +423,17 @@
 				        <label for="phone">Ваш телефон:</label>
 				        <input id="phone" class="form-control" name="phone" required type="text" placeholder="+7 (800) 000-00-00">
 				    </div>
+				    <div class="form-group">
+				        <label for="phone">Комментарий:</label>
+				        <textarea name="comment" id="phone" class="form-control" required type="text" placeholder="Есть вопрос? Можете написать его здесь."></textarea> 
+				    </div>
 				    <div class="form-group form-check">
 				        <input id="check" class="form-check-input" checked type="checkbox">
 				        <label class="form-check-label pl-2" for="check">Я добровольно отправляю свои данные</label>
 				    </div>
-				    <button id="button" class="btn btn-success" type="submit">Отправить</button>
+				    <div class="form-group text-center">
+				    	<button id="button" class="btn btn-send" type="submit">Отправить</button>
+				    </div>
 				    <div class="result">
 				        <span id="answer"></span>
 				        <span id="loader" style="display:none"><img src="images/loader.gif" alt=""></span>
@@ -416,7 +443,48 @@
 						
 		</div>
 	</div>
-</section>
+</section> -->
+
+<section class="signup-section spad">
+		<div class="signup-bg set-bg" data-setbg="/static/img/page-bg/bro.jpeg"></div>
+		<div class="container-fluid">
+			<div class="row pb-5">
+				<div class="col-lg-6">
+					<div class="signup-warp">
+						<div class="section-title text-white text-left">
+							<h2>Забронировать место</h2>
+							<p>Оставьте свои контакты и мы с вами свяжемся</p>
+						</div>
+						<!-- signup form -->
+
+						<form class="signup-form"  id="contactForm" method="post">
+							<div  class="form-group">
+								<input id="name" name="name" required type="text" placeholder="Ваше имя">
+							</div>
+							<div  class="form-group">
+								<input id="phone" class="form-control" name="phone" required  type="text" placeholder="Телефон">
+							</div>
+							<div  class="form-group"><textarea name="comment" id="phone" class="form-control"  type="text" placeholder="Есть вопрос?  Можете написать его здесь."></textarea> </div>
+							 <!-- <div class="checkbox form-check pb-3">	 -->
+						        <label class="form-check-label pl-4" for="check">
+							        <input id="check" class="form-check-input mr-3" checked type="checkbox">
+							        Я добровольно отправляю свои данные
+						    	</label>
+						    <!-- </div> -->
+						    <div class = "mt-4"><button  id="button" class="site-btn">Отправить</button></div>
+							 <div class="result">
+						        <span id="answer"></span>
+						        <span id="loader" style="display:none"><img src="images/loader.gif" alt=""></span>
+						</div>
+						</form>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
 <section class="otzov-section spad">
 	<div class="container">
 
@@ -525,12 +593,8 @@
 							<li>lab-robin@yandex.ru</li>
 						</ul>
 						<div class="social-links">
-							<a href="#"><i class="fa fa-pinterest"></i></a>
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
-							<a href="#"><i class="fa fa-link	edin"></i></a>
+							<a href="https://vk.com/ionvpi"><i class="fa fa-vk"></i></a>
+							<a href="https://www.instagram.com/lab.robin/"><i class="fa fa-instagram"></i></a>
 						</div>
 					</div>
 			</div>
@@ -551,12 +615,11 @@
 		<div class="footer-bottom  mt-0">
 			<div class="footer-warp">
 				<ul class="footer-menu">
-					<li><a href="#">Terms & Conditions</a></li>
-					<li><a href="#">Register</a></li>
-					<li><a href="#">Privacy</a></li>
+					<li class="mr-3">+7 904 412 47 97</li>
+					<li>lab-robin@yandex.ru</li>
+					
 				</ul>
-				<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+				<div class="copyright"> г. Волжский, просп. им. Ленина, 74, аудитория 202
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
 			</div>
 		</div>
@@ -618,7 +681,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
                 loader.fadeOut(300, function() {
                     answer.text("Отлично! В ближейшее время мы вам перезвоним.");
                 });
-                form.find('.form-control').val('');
+                
                 button.attr('disabled', false);
             },
             error: function() {
