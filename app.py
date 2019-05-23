@@ -3,7 +3,7 @@ from config import Confiruration
 import json
 import vk_api
 
-access_token = "21e89565a45b859eff92a63865fd15bfa0bfb72987ea7b57fcd17762cdd1086993922e4eddab0df79451b"
+from somewhere import access_token
 vk_session = vk_api.VkApi(token=access_token)
 vk = vk_session.get_api()
 
