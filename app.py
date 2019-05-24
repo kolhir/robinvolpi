@@ -25,6 +25,14 @@ def ajax_bron():
                     	     "\nКомментарий: " +(request.form['comment'])),
                     random_id = int(time.time())
 		)
+	vk.messages.send( #Отправляем сообщение
+                    user_id=59921086,
+                    message=("Имя: " + (request.form['name']) + 
+                    	     "\nТелефон: " +(request.form['phone'])+
+                    	     "\nКомментарий: " +(request.form['comment'])),
+                    random_id = int(time.time())
+		)
+	
 	print(request.form['name'], request.form['phone'])
 	return json.dumps(200)
 # from users import models, views
