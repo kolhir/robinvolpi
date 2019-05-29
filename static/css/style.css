@@ -287,14 +287,14 @@ ol {
 .main-menu ul li a {
 	display: inline-block;
 	font-size: 16px;
-	color: #fff;
+	color: #feb833;
 	margin-left: 45px;
 	font-weight: 600;
-	padding: 20px 0 5px;
+	padding: 0px 0 5px;
 }
 
 .main-menu ul li a:hover {
-	color: #feb833;
+	color: #fff;
 }
 
 .header-btn {
@@ -1806,15 +1806,23 @@ h5 .time{
 	font-size: 35px;
 }
 
+/*.carousel-control-next {
+  position: absolute;
+  right:-130px;
+}
+.carousel-control-prev {
+   position: absolute;
+  left:-130px;
+}*/
 
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   height: 100px;
   width: 100px;
   outline: black;
   background-size: 100%, 100%;	
   background-image: none;
+
 }
 
 .carousel-control-next-icon:after
@@ -1822,12 +1830,14 @@ h5 .time{
   content: '>';
   font-size: 50px;
   color: #feb833;
+  
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 50px;
   color: #feb833;
+
 }
 
 .otzov {
@@ -1948,10 +1958,29 @@ h5 .time{
 	margin-top: 50px;
 	margin-bottom: 80px;
 }*/
-.fa-vk{
-	color: #4a76a8;
+.fa-vk {
+	color: #335173;
+	font-size: 25px;
 }
-.fa-instagram{
+.fa-instagram {
 	color: #da4188;
+	font-size: 25px;
 }
 
+.header-button {
+		
+	position: absolute;
+	right: 0;
+	margin-right: 30px;	
+	margin-top: 10px;
+}
+
+header .fa-vk,
+header .fa-instagram {
+	/*color: #feb833;*/
+	margin-top:15px;
+
+	display: inline-block;
+	font-size: 30px;
+	padding: 0px 0 5px;
+}
